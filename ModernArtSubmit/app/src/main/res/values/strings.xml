@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Modern Art</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">More information</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+
+</resources>

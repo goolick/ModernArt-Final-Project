@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:theme="@android:style/Theme.Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="5dip"
+        android:background="#ffffff"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:ems="24"
+            android:singleLine="true"
+            android:text="       Visit the MOMA website for more great art!"
+            android:textAppearance="@style/AppTheme"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:layout_alignParentTop="true">
+            </TextView>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="120dip"
+            android:layout_height="40dip"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="25dp"
+            android:text="Visit"
+            android:textSize="15sp"
+            android:background="#ffd1d1d1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="120dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="17dp"
+            android:text="Cancel"
+            android:textSize="15sp"
+            android:background="#ffd1d1d1" />
+
+    </RelativeLayout>
